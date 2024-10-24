@@ -1,0 +1,25 @@
+# ninja log v6
+3	347	7514405718885844	CMakeFiles/icpc.dir/main.cpp.obj	4910fd184aaff922
+349	412	7514405722343657	icpc.exe	533df88171e2ed56
+18	363	7514433178804120	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+7	202	7514440908525446	build.ninja	8b86449ee6212654
+6	206	7514440908525446	build.ninja	8b86449ee6212654
+13	353	7514440909045890	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+9	347	7514441093853100	CMakeFiles/icpc.dir/main.cpp.obj	4910fd184aaff922
+348	407	7514441097245963	icpc.exe	c98c6b2ef311fa24
+8	347	7514442879752202	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+348	409	7514442883145064	icpc.exe	c98c6b2ef311fa24
+9	347	7514442960645860	CMakeFiles/icpc.dir/main.cpp.obj	4910fd184aaff922
+347	407	7514442964028724	icpc.exe	c98c6b2ef311fa24
+9	350	7514446465435711	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+351	412	7514446468848607	icpc.exe	c98c6b2ef311fa24
+9	348	7514447678875526	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+349	411	7514447682273409	icpc.exe	c98c6b2ef311fa24
+9	350	7514448730304389	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+350	411	7514448733717286	icpc.exe	c98c6b2ef311fa24
+9	378	7514449007849409	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+378	443	7514449011542541	icpc.exe	c98c6b2ef311fa24
+8	376	7514449293320629	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+377	441	7514449297003752	icpc.exe	c98c6b2ef311fa24
+9	376	7514449931763109	CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj	c9dcf0afa5d79a10
+376	441	7514449935436232	icpc.exe	c98c6b2ef311fa24

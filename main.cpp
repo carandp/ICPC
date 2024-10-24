@@ -1,7 +1,8 @@
 #include <iostream>
+#include "Basics/DataTypes.h"
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    dataTypes();
     return 0;
 }
