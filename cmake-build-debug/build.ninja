@@ -55,8 +55,8 @@ build CMakeFiles/icpc.dir/main.cpp.obj: CXX_COMPILER__icpc_unscanned_Debug C$:/U
   OBJECT_DIR = CMakeFiles\icpc.dir
   OBJECT_FILE_DIR = CMakeFiles\icpc.dir
 
-build CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj: CXX_COMPILER__icpc_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/DataTypes.cpp || cmake_object_order_depends_target_icpc
-  DEP_FILE = CMakeFiles\icpc.dir\Basics\DataTypes.cpp.obj.d
+build CMakeFiles/icpc.dir/Basics/Basics.cpp.obj: CXX_COMPILER__icpc_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Basics.cpp || cmake_object_order_depends_target_icpc
+  DEP_FILE = CMakeFiles\icpc.dir\Basics\Basics.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\icpc.dir
   OBJECT_FILE_DIR = CMakeFiles\icpc.dir\Basics
@@ -69,7 +69,7 @@ build CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj: CXX_COMPILER__icpc_unscanned
 #############################################
 # Link the executable icpc.exe
 
-build icpc.exe: CXX_EXECUTABLE_LINKER__icpc_Debug CMakeFiles/icpc.dir/main.cpp.obj CMakeFiles/icpc.dir/Basics/DataTypes.cpp.obj
+build icpc.exe: CXX_EXECUTABLE_LINKER__icpc_Debug CMakeFiles/icpc.dir/main.cpp.obj CMakeFiles/icpc.dir/Basics/Basics.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\icpc.dir

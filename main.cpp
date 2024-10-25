@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Basics/DataTypes.h"
+#include "Basics/Basics.h"
 
 int main()
 {
-    dataTypes();
+    basics();
     return 0;
 }
