@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target icpc
+# Object build statements for EXECUTABLE target basics
 
 
 #############################################
-# Order-only phony target for icpc
+# Order-only phony target for basics
 
-build cmake_object_order_depends_target_icpc: phony || .
+build cmake_object_order_depends_target_basics: phony || .
 
-build CMakeFiles/icpc.dir/Basics/Basics.cpp.obj: CXX_COMPILER__icpc_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Basics.cpp || cmake_object_order_depends_target_icpc
-  DEP_FILE = CMakeFiles\icpc.dir\Basics\Basics.cpp.obj.d
+build CMakeFiles/basics.dir/Basics/Operators.cpp.obj: CXX_COMPILER__basics_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Operators.cpp || cmake_object_order_depends_target_basics
+  DEP_FILE = CMakeFiles\basics.dir\Basics\Operators.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\icpc.dir
-  OBJECT_FILE_DIR = CMakeFiles\icpc.dir\Basics
+  OBJECT_DIR = CMakeFiles\basics.dir
+  OBJECT_FILE_DIR = CMakeFiles\basics.dir\Basics
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target icpc
+# Link build statements for EXECUTABLE target basics
 
 
 #############################################
-# Link the executable icpc.exe
+# Link the executable basics.exe
 
-build icpc.exe: CXX_EXECUTABLE_LINKER__icpc_Debug CMakeFiles/icpc.dir/Basics/Basics.cpp.obj
+build basics.exe: CXX_EXECUTABLE_LINKER__basics_Debug CMakeFiles/basics.dir/Basics/Operators.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\icpc.dir
+  OBJECT_DIR = CMakeFiles\basics.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = icpc.exe
-  TARGET_IMPLIB = libicpc.dll.a
-  TARGET_PDB = icpc.exe.dbg
+  TARGET_FILE = basics.exe
+  TARGET_IMPLIB = libbasics.dll.a
+  TARGET_PDB = basics.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build icpc: phony icpc.exe
+build basics: phony basics.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build icpc: phony icpc.exe
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony icpc.exe
+build all: phony basics.exe
 
 # =============================================================================
 # Built-in targets

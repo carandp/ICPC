@@ -26,6 +26,7 @@ int main() {
 
     // ## User input output
 
+    cout << "\nThis is for user input/output: " << endl;
     int x;
     int y;
     cout << "Enter x value: " << endl;
@@ -35,6 +36,7 @@ int main() {
 
     // ## Arithmetic operators
 
+    cout << "\nThis are the arithmetic operators: " << endl;
     cout << "x+y = " << x + y << endl;
     cout << "x-y = " << x - y << endl;
     cout << "x*y = " << x * y << endl;
@@ -46,7 +48,20 @@ int main() {
     cout << "++x = " << ++x << endl; // Out: x + 1, x += 1
     cout << "2^3 = " << pow(2,3) << endl; // Power from cmath
 
-    // String operations TODO
+    // ## String operations
+
+    cout << "\nThis are string operators: " << endl;
+    string abc = "abc";
+    cout << abc[0] << endl;
+    cout << abc.size() << endl;
+    cout << abc.substr(1,abc.size()) << endl; // Excludes end
+
+    // ## Type conversion
+
+    cout << "\nThis are type conversions: " << endl;
+    string ten = "10";
+    long long num = stoi(ten); // Convert string to number
+    cout << "This is num*10: " + to_string(num*10) << endl; // Convert number to string
 
     return 0;
 }
