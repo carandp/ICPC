@@ -1,11 +1,10 @@
 #include <iostream>
 #include <string> // Used to include string type
 #include <cmath> // Used to power numbers
-#include "Basics.h"
 
 using namespace std; // Used to shorten std::cout -> cout
 
-int basics() {
+int main() {
 
     // ## Data Types
 

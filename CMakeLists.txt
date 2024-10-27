@@ -3,6 +3,6 @@ project(icpc)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(icpc main.cpp
-        Basics/Basics.cpp
-        Basics/Basics.h)
+add_executable(
+        icpc Basics/Basics.cpp
+)
