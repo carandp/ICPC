@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 
 build cmake_object_order_depends_target_basics: phony || .
 
-build CMakeFiles/basics.dir/Basics/Loops.cpp.obj: CXX_COMPILER__basics_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Loops.cpp || cmake_object_order_depends_target_basics
-  DEP_FILE = CMakeFiles\basics.dir\Basics\Loops.cpp.obj.d
+build CMakeFiles/basics.dir/Basics/Strings.cpp.obj: CXX_COMPILER__basics_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Strings.cpp || cmake_object_order_depends_target_basics
+  DEP_FILE = CMakeFiles\basics.dir\Basics\Strings.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\basics.dir
   OBJECT_FILE_DIR = CMakeFiles\basics.dir\Basics
@@ -63,7 +63,7 @@ build CMakeFiles/basics.dir/Basics/Loops.cpp.obj: CXX_COMPILER__basics_unscanned
 #############################################
 # Link the executable basics.exe
 
-build basics.exe: CXX_EXECUTABLE_LINKER__basics_Debug CMakeFiles/basics.dir/Basics/Loops.cpp.obj
+build basics.exe: CXX_EXECUTABLE_LINKER__basics_Debug CMakeFiles/basics.dir/Basics/Strings.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\basics.dir

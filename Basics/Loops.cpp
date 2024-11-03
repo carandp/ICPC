@@ -18,5 +18,22 @@ int main() {
         cout << arr[i] << endl;
     }
 
+    cout << "\nThis is a for in loop: " << endl;
+    for (const int i: arr) {
+        cout << i << endl;
+    }
+
+    // ## While loops
+
+    cout << "\nThis is a while loop: " << endl;
+    int i = 0;
+    while (i < 5) {
+        cout << i;
+        i++;
+    }
+    cout << endl;
+
+
+
     return 0;
 }

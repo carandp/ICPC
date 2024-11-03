@@ -48,14 +48,6 @@ int main() {
     cout << "++x = " << ++x << endl; // Out: x + 1, x += 1
     cout << "2^3 = " << pow(2,3) << endl; // Power from cmath
 
-    // ## String operations
-
-    cout << "\nThis are string operators: " << endl;
-    string abc = "abc";
-    cout << abc[0] << endl;
-    cout << abc.size() << endl;
-    cout << abc.substr(1,abc.size()) << endl; // Excludes end
-
     // ## Type conversion
 
     cout << "\nThis are type conversions: " << endl;

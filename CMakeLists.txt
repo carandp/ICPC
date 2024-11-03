@@ -7,5 +7,6 @@ add_executable(
         basics
         #Basics/Basics.cpp
         #Basics/Operators.cpp
-        Basics/Loops.cpp
+        #Basics/Loops.cpp
+        Basics/Strings.cpp
 )
