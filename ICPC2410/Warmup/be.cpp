@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string> 
 #include <cmath>
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> // Used to transform upper to lowercase
 
 using namespace std;
 
