@@ -8,5 +8,7 @@ add_executable(
         #Basics/Basics.cpp
         #Basics/Operators.cpp
         #Basics/Loops.cpp
-        Basics/Strings.cpp
+        #Basics/Strings.cpp
+        #ICPC2410/Warmup/asp.cpp
+        ICPC2410/Warmup/be.cpp
 )
