@@ -41,37 +41,103 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target basics
+# Object build statements for EXECUTABLE target console
 
 
 #############################################
-# Order-only phony target for basics
+# Order-only phony target for console
 
-build cmake_object_order_depends_target_basics: phony || .
+build cmake_object_order_depends_target_console: phony || .
 
-build CMakeFiles/basics.dir/ICPC2410/Warmup/be.cpp.obj: CXX_COMPILER__basics_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/ICPC2410/Warmup/be.cpp || cmake_object_order_depends_target_basics
-  DEP_FILE = CMakeFiles\basics.dir\ICPC2410\Warmup\be.cpp.obj.d
+build CMakeFiles/console.dir/Basics/Basics.cpp.obj: CXX_COMPILER__console_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Basics/Basics.cpp || cmake_object_order_depends_target_console
+  DEP_FILE = CMakeFiles\console.dir\Basics\Basics.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\basics.dir
-  OBJECT_FILE_DIR = CMakeFiles\basics.dir\ICPC2410\Warmup
+  OBJECT_DIR = CMakeFiles\console.dir
+  OBJECT_FILE_DIR = CMakeFiles\console.dir\Basics
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target basics
+# Link build statements for EXECUTABLE target console
 
 
 #############################################
-# Link the executable basics.exe
+# Link the executable console.exe
 
-build basics.exe: CXX_EXECUTABLE_LINKER__basics_Debug CMakeFiles/basics.dir/ICPC2410/Warmup/be.cpp.obj
+build console.exe: CXX_EXECUTABLE_LINKER__console_Debug CMakeFiles/console.dir/Basics/Basics.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\basics.dir
+  OBJECT_DIR = CMakeFiles\console.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = basics.exe
-  TARGET_IMPLIB = libbasics.dll.a
-  TARGET_PDB = basics.exe.dbg
+  TARGET_FILE = console.exe
+  TARGET_IMPLIB = libconsole.dll.a
+  TARGET_PDB = console.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target A_Alices_Adventures_in_Chess
+
+
+#############################################
+# Order-only phony target for A_Alices_Adventures_in_Chess
+
+build cmake_object_order_depends_target_A_Alices_Adventures_in_Chess: phony || .
+
+build CMakeFiles/A_Alices_Adventures_in_Chess.dir/Codeforces/Codeforces_-_Codeforces_Round_986_Div_2/A_Alices_Adventures_in_Chess.cpp.obj: CXX_COMPILER__A_Alices_Adventures_in_Chess_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Codeforces$ Round$ 986$ Div$ 2/A_Alices_Adventures_in_Chess.cpp || cmake_object_order_depends_target_A_Alices_Adventures_in_Chess
+  DEP_FILE = CMakeFiles\A_Alices_Adventures_in_Chess.dir\Codeforces\Codeforces_-_Codeforces_Round_986_Div_2\A_Alices_Adventures_in_Chess.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\A_Alices_Adventures_in_Chess.dir
+  OBJECT_FILE_DIR = CMakeFiles\A_Alices_Adventures_in_Chess.dir\Codeforces\Codeforces_-_Codeforces_Round_986_Div_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target A_Alices_Adventures_in_Chess
+
+
+#############################################
+# Link the executable A_Alices_Adventures_in_Chess.exe
+
+build A_Alices_Adventures_in_Chess.exe: CXX_EXECUTABLE_LINKER__A_Alices_Adventures_in_Chess_Debug CMakeFiles/A_Alices_Adventures_in_Chess.dir/Codeforces/Codeforces_-_Codeforces_Round_986_Div_2/A_Alices_Adventures_in_Chess.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\A_Alices_Adventures_in_Chess.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = A_Alices_Adventures_in_Chess.exe
+  TARGET_IMPLIB = libA_Alices_Adventures_in_Chess.dll.a
+  TARGET_PDB = A_Alices_Adventures_in_Chess.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target B_Alices_Adventures_in_Permuting
+
+
+#############################################
+# Order-only phony target for B_Alices_Adventures_in_Permuting
+
+build cmake_object_order_depends_target_B_Alices_Adventures_in_Permuting: phony || .
+
+build CMakeFiles/B_Alices_Adventures_in_Permuting.dir/Codeforces/Codeforces_-_Codeforces_Round_986_Div_2/B_Alices_Adventures_in_Permuting.cpp.obj: CXX_COMPILER__B_Alices_Adventures_in_Permuting_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Codeforces$ Round$ 986$ Div$ 2/B_Alices_Adventures_in_Permuting.cpp || cmake_object_order_depends_target_B_Alices_Adventures_in_Permuting
+  DEP_FILE = CMakeFiles\B_Alices_Adventures_in_Permuting.dir\Codeforces\Codeforces_-_Codeforces_Round_986_Div_2\B_Alices_Adventures_in_Permuting.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\B_Alices_Adventures_in_Permuting.dir
+  OBJECT_FILE_DIR = CMakeFiles\B_Alices_Adventures_in_Permuting.dir\Codeforces\Codeforces_-_Codeforces_Round_986_Div_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target B_Alices_Adventures_in_Permuting
+
+
+#############################################
+# Link the executable B_Alices_Adventures_in_Permuting.exe
+
+build B_Alices_Adventures_in_Permuting.exe: CXX_EXECUTABLE_LINKER__B_Alices_Adventures_in_Permuting_Debug CMakeFiles/B_Alices_Adventures_in_Permuting.dir/Codeforces/Codeforces_-_Codeforces_Round_986_Div_2/B_Alices_Adventures_in_Permuting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\B_Alices_Adventures_in_Permuting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = B_Alices_Adventures_in_Permuting.exe
+  TARGET_IMPLIB = libB_Alices_Adventures_in_Permuting.dll.a
+  TARGET_PDB = B_Alices_Adventures_in_Permuting.exe.dbg
 
 
 #############################################
@@ -99,7 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build basics: phony basics.exe
+build A_Alices_Adventures_in_Chess: phony A_Alices_Adventures_in_Chess.exe
+
+build B_Alices_Adventures_in_Permuting: phony B_Alices_Adventures_in_Permuting.exe
+
+build console: phony console.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +179,7 @@ build basics: phony basics.exe
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony basics.exe
+build all: phony console.exe A_Alices_Adventures_in_Chess.exe B_Alices_Adventures_in_Permuting.exe
 
 # =============================================================================
 # Built-in targets
