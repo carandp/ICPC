@@ -1,5 +1,3 @@
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/console.dir
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/A_Alices_Adventures_in_Chess.dir
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/B_Alices_Adventures_in_Permuting.dir
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/C_Alices_Adventures_in_Cutting_Cake.dir
+/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

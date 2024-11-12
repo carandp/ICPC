@@ -21,8 +21,6 @@ void solve() {
         } else {
             cout << n-1 << endl;
         }
-    } else if (n == b && b == c){
-        cout << n << endl;
     } else {
         cout << n - max(0LL, ((n-c-1)/b+1)) << endl;
     }
