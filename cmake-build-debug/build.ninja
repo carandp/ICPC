@@ -40,6 +40,40 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target A_Twice
+
+
+#############################################
+# Order-only phony target for A_Twice
+
+build cmake_object_order_depends_target_A_Twice: phony || .
+
+build CMakeFiles/A_Twice.dir/Codeforces/Codeforces_-_Codeforces_Round_988_Div_3/A_Twice.cpp.obj: CXX_COMPILER__A_Twice_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Codeforces$ Round$ 988$ Div$ 3/A_Twice.cpp || cmake_object_order_depends_target_A_Twice
+  DEP_FILE = CMakeFiles\A_Twice.dir\Codeforces\Codeforces_-_Codeforces_Round_988_Div_3\A_Twice.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/usr/local/include
+  OBJECT_DIR = CMakeFiles\A_Twice.dir
+  OBJECT_FILE_DIR = CMakeFiles\A_Twice.dir\Codeforces\Codeforces_-_Codeforces_Round_988_Div_3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target A_Twice
+
+
+#############################################
+# Link the executable A_Twice.exe
+
+build A_Twice.exe: CXX_EXECUTABLE_LINKER__A_Twice_Debug CMakeFiles/A_Twice.dir/Codeforces/Codeforces_-_Codeforces_Round_988_Div_3/A_Twice.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\A_Twice.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = A_Twice.exe
+  TARGET_IMPLIB = libA_Twice.dll.a
+  TARGET_PDB = A_Twice.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -66,6 +100,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build A_Twice: phony A_Twice.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -74,7 +110,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony
+build all: phony A_Twice.exe
 
 # =============================================================================
 # Built-in targets
