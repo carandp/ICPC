@@ -14,54 +14,47 @@ int main() {
 
     cin >> n >> q;
 
-    string estados;
+    string bottles;
 
-    cin >> estados;
+    cin >> bottles;
 
-    // Procesar string
-    char inicial = '-';
-    for (char i: estados) {
-        if (i != '-') {
-            inicial = i;
-            break;
+    bool known[n] = {false};
+
+    for (int i = 0; i < n; i++) {
+        if (bottles[i] == 'C' || bottles[i] == 'N') known[i] = true;
+    }
+
+    if (n == 1) {
+        if (bottles[0] == '-') bottles[0] = '?';
+    } else {
+        int cif = n-1;
+        while(cif > 0 && bottles[cif] != 'C') {
+            cif--;
         }
-    }
-    char final = '-';
-    if (inicial == 'N') {
-        final = 'C';
-    } else if (inicial == 'C') {
-        final = 'N';
-    }
+        for (int i=0; i < cif; i++) {
+            bottles[i] = 'C';
+        }
 
-    bool estaban[n];
-    for (int i=0; i<n; i++) {
-        estaban[i] = false;
-    }
+        int cfi = 0;
+        while(cfi < n && bottles[cfi] != 'N') {
+            cfi++;
+        }
+        for (int i=n-1; i > cfi; i--) {
+            bottles[i] = 'N';
+        }
 
-    for (int c0 = 0; c0 < estados.size(); c0++) {
-        if (estados[c0] == 'C' || estados[c0] == 'N') estaban[c0] = true;
-    }
-    int cif = estados.size()-1;
-    while(estados[cif] != inicial) {
-        cif--;
-    }
-    int cfi = 0;
-    while(estados[cfi] != final) {
-        cfi++;
+        for (int i=0; i < n; i++) {
+            if (bottles[i] == '-') bottles[i] = '?';
+        }
     }
 
     while (q--) {
         int p;
         cin >> p;
-
-        if (estaban[p-1]) {
+        if (known[p-1]) {
             cout << '!' << endl;
-        } else if (p-1 < cif) {
-            cout << inicial << endl;
-        } else if (p-1 > cfi) {
-            cout << final << endl;
         } else {
-            cout << '?' << endl;
+            cout << bottles[p-1] << endl;
         }
     }
     

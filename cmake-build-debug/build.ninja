@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C_GranSuma
+# Object build statements for EXECUTABLE target console
 
 
 #############################################
-# Order-only phony target for C_GranSuma
+# Order-only phony target for console
 
-build cmake_object_order_depends_target_C_GranSuma: phony || .
+build cmake_object_order_depends_target_console: phony || .
 
-build CMakeFiles/C_GranSuma.dir/Codeforces/Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica/C_Gran_Suma.cpp.obj: CXX_COMPILER__C_GranSuma_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Maraton$ nacional$ ACM$ 2024-II$ Fase$ clasificatoria$ -$ Categoria$ Basica/C_Gran_Suma.cpp || cmake_object_order_depends_target_C_GranSuma
-  DEP_FILE = CMakeFiles\C_GranSuma.dir\Codeforces\Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica\C_Gran_Suma.cpp.obj.d
+build CMakeFiles/console.dir/Codeforces/Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica/B_Juego_del_agua.cpp.obj: CXX_COMPILER__console_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Maraton$ nacional$ ACM$ 2024-II$ Fase$ clasificatoria$ -$ Categoria$ Basica/B_Juego_del_agua.cpp || cmake_object_order_depends_target_console
+  DEP_FILE = CMakeFiles\console.dir\Codeforces\Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica\B_Juego_del_agua.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/usr/local/include
-  OBJECT_DIR = CMakeFiles\C_GranSuma.dir
-  OBJECT_FILE_DIR = CMakeFiles\C_GranSuma.dir\Codeforces\Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica
+  OBJECT_DIR = CMakeFiles\console.dir
+  OBJECT_FILE_DIR = CMakeFiles\console.dir\Codeforces\Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_GranSuma
+# Link build statements for EXECUTABLE target console
 
 
 #############################################
-# Link the executable C_GranSuma.exe
+# Link the executable console.exe
 
-build C_GranSuma.exe: CXX_EXECUTABLE_LINKER__C_GranSuma_Debug CMakeFiles/C_GranSuma.dir/Codeforces/Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica/C_Gran_Suma.cpp.obj
+build console.exe: CXX_EXECUTABLE_LINKER__console_Debug CMakeFiles/console.dir/Codeforces/Codeforces_-_Maraton_nacional_ACM_2024-II_Fase_clasificatoria_-_Categoria_Basica/B_Juego_del_agua.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C_GranSuma.dir
+  OBJECT_DIR = CMakeFiles\console.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C_GranSuma.exe
-  TARGET_IMPLIB = libC_GranSuma.dll.a
-  TARGET_PDB = C_GranSuma.exe.dbg
+  TARGET_FILE = console.exe
+  TARGET_IMPLIB = libconsole.dll.a
+  TARGET_PDB = console.exe.dbg
 
 
 #############################################
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C_GranSuma: phony C_GranSuma.exe
+build console: phony console.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +110,7 @@ build C_GranSuma: phony C_GranSuma.exe
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony C_GranSuma.exe
+build all: phony console.exe
 
 # =============================================================================
 # Built-in targets
