@@ -5,13 +5,12 @@
 using namespace std;
 typedef long long ll;
 
-// Function for finding sum of larger numbers
 string bigIntegerSum(string str1, string str2)
 {
 
     if (str1.length() > str2.length()) swap(str1, str2);
 
-    string str = "";
+    string res = "";
 
     int n1 = str1.length(), n2 = str2.length();
 
@@ -21,34 +20,41 @@ string bigIntegerSum(string str1, string str2)
     int carry = 0;
     for (int i=0; i<n1; i++) {
         int sum = ((str1[i]-'0')+(str2[i]-'0')+carry);
-        str.push_back(sum%10 + '0');
+        res.push_back((sum%10) + '0');
         carry = sum/10;
     }
 
     for (int i=n1; i<n2; i++) {
         int sum = ((str2[i]-'0')+carry);
-        str.push_back(sum%10 + '0');
+        res.push_back((sum%10) + '0');
         carry = sum/10;
     }
 
-    if (carry) str.push_back(carry+'0');
+    if (carry) res.push_back(carry+'0');
 
-    reverse(str.begin(), str.end());
+    reverse(res.begin(), res.end());
 
-    return str;
+    string resNo0 = "";
+    for (int i=0; i < res.size(); i++) {
+        if (resNo0.size() != 0 || res[i] != '0') {
+            resNo0.push_back(res[i]);
+        }
+    }
+
+    if (resNo0.size() == 0) resNo0.push_back('0');
+
+    return resNo0;
 }
 
 int main() {
-    // INCORRECT
-
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    ll t;
+    int t;
 
     cin >> t;
     while (t--) {
-        ll n;
+        int n;
         cin >> n;
         string a, b;
         cin >> a >> b;

@@ -1,3 +1,3 @@
-C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/A_Twice.dir
+C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/C_GranSuma.dir
 C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -6,4 +6,5 @@ include_directories(/usr/local/include)
 set(CMAKE_CXX_STANDARD 20)
 
 
-add_executable(A_Twice "Codeforces/Codeforces - Codeforces Round 988 Div 3/A_Twice.cpp")
+add_executable(C_GranSuma
+        "Codeforces/Codeforces - Maraton nacional ACM 2024-II Fase clasificatoria - Categoria Basica/C_Gran_Suma.cpp")
