@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C_Trapped_in_the_Witchs_Labyrinth
+# Object build statements for EXECUTABLE target C_Ordered_Permutations
 
 
 #############################################
-# Order-only phony target for C_Trapped_in_the_Witchs_Labyrinth
+# Order-only phony target for C_Ordered_Permutations
 
-build cmake_object_order_depends_target_C_Trapped_in_the_Witchs_Labyrinth: phony || .
+build cmake_object_order_depends_target_C_Ordered_Permutations: phony || .
 
-build CMakeFiles/C_Trapped_in_the_Witchs_Labyrinth.dir/Codeforces/Codeforces_-_Rayan_Programming_Contest_2024_-_Selection_Codeforces_Round_989_Div_1__Div_2/C_Trapped_in_the_Witchs_Labyrinth.cpp.obj: CXX_COMPILER__C_Trapped_in_the_Witchs_Labyrinth_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Rayan$ Programming$ Contest$ 2024$ -$ Selection$ Codeforces$ Round$ 989$ Div$ 1$ $ Div$ 2/C_Trapped_in_the_Witchs_Labyrinth.cpp || cmake_object_order_depends_target_C_Trapped_in_the_Witchs_Labyrinth
-  DEP_FILE = CMakeFiles\C_Trapped_in_the_Witchs_Labyrinth.dir\Codeforces\Codeforces_-_Rayan_Programming_Contest_2024_-_Selection_Codeforces_Round_989_Div_1__Div_2\C_Trapped_in_the_Witchs_Labyrinth.cpp.obj.d
+build CMakeFiles/C_Ordered_Permutations.dir/Codeforces/Codeforces_-_Codeforces_Round_992_Div_2/C_Ordered_Permutations.cpp.obj: CXX_COMPILER__C_Ordered_Permutations_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Codeforces$ Round$ 992$ Div$ 2/C_Ordered_Permutations.cpp || cmake_object_order_depends_target_C_Ordered_Permutations
+  DEP_FILE = CMakeFiles\C_Ordered_Permutations.dir\Codeforces\Codeforces_-_Codeforces_Round_992_Div_2\C_Ordered_Permutations.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/usr/local/include
-  OBJECT_DIR = CMakeFiles\C_Trapped_in_the_Witchs_Labyrinth.dir
-  OBJECT_FILE_DIR = CMakeFiles\C_Trapped_in_the_Witchs_Labyrinth.dir\Codeforces\Codeforces_-_Rayan_Programming_Contest_2024_-_Selection_Codeforces_Round_989_Div_1__Div_2
+  OBJECT_DIR = CMakeFiles\C_Ordered_Permutations.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_Ordered_Permutations.dir\Codeforces\Codeforces_-_Codeforces_Round_992_Div_2
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_Trapped_in_the_Witchs_Labyrinth
+# Link build statements for EXECUTABLE target C_Ordered_Permutations
 
 
 #############################################
-# Link the executable C_Trapped_in_the_Witchs_Labyrinth.exe
+# Link the executable C_Ordered_Permutations.exe
 
-build C_Trapped_in_the_Witchs_Labyrinth.exe: CXX_EXECUTABLE_LINKER__C_Trapped_in_the_Witchs_Labyrinth_Debug CMakeFiles/C_Trapped_in_the_Witchs_Labyrinth.dir/Codeforces/Codeforces_-_Rayan_Programming_Contest_2024_-_Selection_Codeforces_Round_989_Div_1__Div_2/C_Trapped_in_the_Witchs_Labyrinth.cpp.obj
+build C_Ordered_Permutations.exe: CXX_EXECUTABLE_LINKER__C_Ordered_Permutations_Debug CMakeFiles/C_Ordered_Permutations.dir/Codeforces/Codeforces_-_Codeforces_Round_992_Div_2/C_Ordered_Permutations.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C_Trapped_in_the_Witchs_Labyrinth.dir
+  OBJECT_DIR = CMakeFiles\C_Ordered_Permutations.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C_Trapped_in_the_Witchs_Labyrinth.exe
-  TARGET_IMPLIB = libC_Trapped_in_the_Witchs_Labyrinth.dll.a
-  TARGET_PDB = C_Trapped_in_the_Witchs_Labyrinth.exe.dbg
+  TARGET_FILE = C_Ordered_Permutations.exe
+  TARGET_IMPLIB = libC_Ordered_Permutations.dll.a
+  TARGET_PDB = C_Ordered_Permutations.exe.dbg
 
 
 #############################################
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C_Trapped_in_the_Witchs_Labyrinth: phony C_Trapped_in_the_Witchs_Labyrinth.exe
+build C_Ordered_Permutations: phony C_Ordered_Permutations.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +110,7 @@ build C_Trapped_in_the_Witchs_Labyrinth: phony C_Trapped_in_the_Witchs_Labyrinth
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony C_Trapped_in_the_Witchs_Labyrinth.exe
+build all: phony C_Ordered_Permutations.exe
 
 # =============================================================================
 # Built-in targets
