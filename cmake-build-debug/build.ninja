@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target B___Common_Divisors
+# Object build statements for EXECUTABLE target P1___202510
 
 
 #############################################
-# Order-only phony target for B___Common_Divisors
+# Order-only phony target for P1___202510
 
-build cmake_object_order_depends_target_B___Common_Divisors: phony || .
+build cmake_object_order_depends_target_P1___202510: phony || .
 
-build CMakeFiles/B___Common_Divisors.dir/Codeforces/Virtual_Judge_-_MUA-202510-03/B___Common_Divisors.cpp.obj: CXX_COMPILER__B___Common_Divisors_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Virtual$ Judge$ -$ MUA-202510-03/B___Common_Divisors.cpp || cmake_object_order_depends_target_B___Common_Divisors
-  DEP_FILE = CMakeFiles\B___Common_Divisors.dir\Codeforces\Virtual_Judge_-_MUA-202510-03\B___Common_Divisors.cpp.obj.d
+build CMakeFiles/P1___202510.dir/DP/P1___202510.cpp.obj: CXX_COMPILER__P1___202510_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/DP/P1___202510.cpp || cmake_object_order_depends_target_P1___202510
+  DEP_FILE = CMakeFiles\P1___202510.dir\DP\P1___202510.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/usr/local/include
-  OBJECT_DIR = CMakeFiles\B___Common_Divisors.dir
-  OBJECT_FILE_DIR = CMakeFiles\B___Common_Divisors.dir\Codeforces\Virtual_Judge_-_MUA-202510-03
+  OBJECT_DIR = CMakeFiles\P1___202510.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1___202510.dir\DP
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target B___Common_Divisors
+# Link build statements for EXECUTABLE target P1___202510
 
 
 #############################################
-# Link the executable B___Common_Divisors.exe
+# Link the executable P1___202510.exe
 
-build B___Common_Divisors.exe: CXX_EXECUTABLE_LINKER__B___Common_Divisors_Debug CMakeFiles/B___Common_Divisors.dir/Codeforces/Virtual_Judge_-_MUA-202510-03/B___Common_Divisors.cpp.obj
+build P1___202510.exe: CXX_EXECUTABLE_LINKER__P1___202510_Debug CMakeFiles/P1___202510.dir/DP/P1___202510.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\B___Common_Divisors.dir
+  OBJECT_DIR = CMakeFiles\P1___202510.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = B___Common_Divisors.exe
-  TARGET_IMPLIB = libB___Common_Divisors.dll.a
-  TARGET_PDB = B___Common_Divisors.exe.dbg
+  TARGET_FILE = P1___202510.exe
+  TARGET_IMPLIB = libP1___202510.dll.a
+  TARGET_PDB = P1___202510.exe.dbg
 
 
 #############################################
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build B___Common_Divisors: phony B___Common_Divisors.exe
+build P1___202510: phony P1___202510.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +110,7 @@ build B___Common_Divisors: phony B___Common_Divisors.exe
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony B___Common_Divisors.exe
+build all: phony P1___202510.exe
 
 # =============================================================================
 # Built-in targets
