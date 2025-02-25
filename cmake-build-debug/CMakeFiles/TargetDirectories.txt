@@ -1,4 +1,3 @@
-/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/A___Santa_Claus_and_Candies.dir
-/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/D___Raspberries.dir
-/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/carlos/CLionProjects/ICPC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/B___Common_Divisors.dir
+C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/caran/CLionProjects/icpc/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -41,38 +41,38 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/caran/CLionProjects/icpc/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target C_Ordered_Permutations
+# Object build statements for EXECUTABLE target B___Common_Divisors
 
 
 #############################################
-# Order-only phony target for C_Ordered_Permutations
+# Order-only phony target for B___Common_Divisors
 
-build cmake_object_order_depends_target_C_Ordered_Permutations: phony || .
+build cmake_object_order_depends_target_B___Common_Divisors: phony || .
 
-build CMakeFiles/C_Ordered_Permutations.dir/Codeforces/Codeforces_-_Codeforces_Round_992_Div_2/C_Ordered_Permutations.cpp.obj: CXX_COMPILER__C_Ordered_Permutations_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Codeforces$ -$ Codeforces$ Round$ 992$ Div$ 2/C_Ordered_Permutations.cpp || cmake_object_order_depends_target_C_Ordered_Permutations
-  DEP_FILE = CMakeFiles\C_Ordered_Permutations.dir\Codeforces\Codeforces_-_Codeforces_Round_992_Div_2\C_Ordered_Permutations.cpp.obj.d
+build CMakeFiles/B___Common_Divisors.dir/Codeforces/Virtual_Judge_-_MUA-202510-03/B___Common_Divisors.cpp.obj: CXX_COMPILER__B___Common_Divisors_unscanned_Debug C$:/Users/caran/CLionProjects/icpc/Codeforces/Virtual$ Judge$ -$ MUA-202510-03/B___Common_Divisors.cpp || cmake_object_order_depends_target_B___Common_Divisors
+  DEP_FILE = CMakeFiles\B___Common_Divisors.dir\Codeforces\Virtual_Judge_-_MUA-202510-03\B___Common_Divisors.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -I/usr/local/include
-  OBJECT_DIR = CMakeFiles\C_Ordered_Permutations.dir
-  OBJECT_FILE_DIR = CMakeFiles\C_Ordered_Permutations.dir\Codeforces\Codeforces_-_Codeforces_Round_992_Div_2
+  OBJECT_DIR = CMakeFiles\B___Common_Divisors.dir
+  OBJECT_FILE_DIR = CMakeFiles\B___Common_Divisors.dir\Codeforces\Virtual_Judge_-_MUA-202510-03
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target C_Ordered_Permutations
+# Link build statements for EXECUTABLE target B___Common_Divisors
 
 
 #############################################
-# Link the executable C_Ordered_Permutations.exe
+# Link the executable B___Common_Divisors.exe
 
-build C_Ordered_Permutations.exe: CXX_EXECUTABLE_LINKER__C_Ordered_Permutations_Debug CMakeFiles/C_Ordered_Permutations.dir/Codeforces/Codeforces_-_Codeforces_Round_992_Div_2/C_Ordered_Permutations.cpp.obj
+build B___Common_Divisors.exe: CXX_EXECUTABLE_LINKER__B___Common_Divisors_Debug CMakeFiles/B___Common_Divisors.dir/Codeforces/Virtual_Judge_-_MUA-202510-03/B___Common_Divisors.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\C_Ordered_Permutations.dir
+  OBJECT_DIR = CMakeFiles\B___Common_Divisors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = C_Ordered_Permutations.exe
-  TARGET_IMPLIB = libC_Ordered_Permutations.dll.a
-  TARGET_PDB = C_Ordered_Permutations.exe.dbg
+  TARGET_FILE = B___Common_Divisors.exe
+  TARGET_IMPLIB = libB___Common_Divisors.dll.a
+  TARGET_PDB = B___Common_Divisors.exe.dbg
 
 
 #############################################
@@ -100,7 +100,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build C_Ordered_Permutations: phony C_Ordered_Permutations.exe
+build B___Common_Divisors: phony B___Common_Divisors.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,7 +110,7 @@ build C_Ordered_Permutations: phony C_Ordered_Permutations.exe
 #############################################
 # Folder: C:/Users/caran/CLionProjects/icpc/cmake-build-debug
 
-build all: phony C_Ordered_Permutations.exe
+build all: phony B___Common_Divisors.exe
 
 # =============================================================================
 # Built-in targets
