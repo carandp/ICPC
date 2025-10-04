@@ -25,7 +25,7 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 - **leetcode/** → Solutions to LeetCode problems, organized by topic.
 - **codeforces/** → Contest problems with editorial notes when possible.
-- **neetcode/** → Solutions to the NeetCode roadmap list.
+- **neetcode/** → Reference to the solutions to the NeetCode roadmap list.
 - **notes/** → Algorithms, templates, and explanations I use while practicing and learning c++.
 - **uni2804/** → Solutions to uni2804 subject problems.
 
@@ -53,9 +53,8 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 | Platform | Problems Solved |
 |----------|-----------------|
-| LeetCode | 01              |
+| LeetCode | 03              |
 | Codeforces | 26              |
-| NeetCode | 01              |
 
 *(Last updated 10/2025)*
 
@@ -63,7 +62,6 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 ## ✨ Highlights
 
-- 📚 Covers a variety of topics: arrays, DP, graphs, math, greedy, etc.
 - 📝 Includes explanations or comments in tricky problems.
 - 🔄 Continuously updated as I practice more.
 
