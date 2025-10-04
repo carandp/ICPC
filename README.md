@@ -70,6 +70,6 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 ## 📌 Motivation
 
-> *""*
+> *"DET-BEDSTE-ER-IKKE-FOR-GODT"*
 
-This repository keeps me accountable and motivated on my competitive programming journey.  
+This repository keeps me accountable and motivated on my competitive programming journey.
