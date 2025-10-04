@@ -13,6 +13,7 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 │   ├── Codeforces - Codeforces Round 986 Div 2/
 │   └── ...
 ├── leetcode/
+│   ├── hash_table/
 │   └── ...
 ├── neetcode/
 │   ├── arrays_and_hashing/
@@ -52,9 +53,9 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 | Platform | Problems Solved |
 |----------|-----------------|
-| LeetCode | 00              |
+| LeetCode | 01              |
 | Codeforces | 26              |
-| NeetCode | 00              |
+| NeetCode | 01              |
 
 *(Last updated 10/2025)*
 
