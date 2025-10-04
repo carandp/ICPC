@@ -1,9 +1,5 @@
 //  B - Common Divisors
 
-/**
-    @author: Carlos Peña
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;

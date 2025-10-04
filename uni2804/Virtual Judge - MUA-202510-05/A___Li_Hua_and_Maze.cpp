@@ -1,9 +1,5 @@
 //  A - Li Hua and Maze
 
-/**
-    @author: 4sln
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;

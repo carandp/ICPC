@@ -1,5 +1,4 @@
 //  C - King's Task
-// Carlos Peña
 
 #include<bits/stdc++.h>
 

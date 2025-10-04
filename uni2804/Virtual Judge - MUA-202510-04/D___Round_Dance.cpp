@@ -1,9 +1,5 @@
 //  D - Round Dance
 
-/**
-    @author: 4sln
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;

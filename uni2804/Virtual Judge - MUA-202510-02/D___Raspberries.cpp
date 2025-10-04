@@ -1,9 +1,5 @@
 //  D - Raspberries
 
-/**
-    @author: Carlos Peña
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;

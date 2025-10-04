@@ -1,9 +1,5 @@
 //  D - How many trees?
 
-/**
-    @author: carandp
-*/
-
 #include<bits/stdc++.h>
 
 using namespace std;
