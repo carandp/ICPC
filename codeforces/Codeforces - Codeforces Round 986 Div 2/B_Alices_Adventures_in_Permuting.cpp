@@ -6,7 +6,7 @@ using namespace std;
 
 typedef long long ll;
 
-void solve() {
+bool solve() {
     ll n, b, c;
     cin >> n >> b >> c;
 
