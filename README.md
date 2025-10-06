@@ -53,7 +53,7 @@ Here you’ll find my solutions to problems from various platforms, contests, an
 
 | Platform | Problems Solved |
 |----------|-----------------|
-| LeetCode | 03              |
+| LeetCode | 04              |
 | Codeforces | 26              |
 
 *(Last updated 10/2025)*
