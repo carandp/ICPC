@@ -7,3 +7,4 @@ From LeetCode:
 347. Top K Frequent Elements
 271. Encode and Decode Strings
 238. Product of Array Except Self
+128. Longest Consecutive Sequence
