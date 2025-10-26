@@ -13,18 +13,20 @@ Here you’ll find my solutions to problems from various contests. This is my jo
 │   ├── Codeforces - Codeforces Round 986 Div 2/
 │   └── ...
 ├── leetcode/
-│   ├── hash_table/
-│   └── ...
+│   ├── contest/
+│   └── topics/
 ├── neetcode/
 │   ├── arrays_and_hashing/
 │   └── ...
 ├── notes/
+│   ├── basics/
+│   └── templates/
 ├── temp/
 ├── uni2804/
 └── README.md
 ```
 
-- **leetcode/** → Solutions to LeetCode problems, organized by topic.
+- **leetcode/** → Solutions to LeetCode contests and problems, organized by topic.
 - **codeforces/** → Contest problems.
 - **neetcode/** → Problem text list to the solutions of the NeetCode roadmap list.
 - **notes/** → Algorithms, templates, and explanations I use while practicing and learning c++.
