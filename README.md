@@ -45,8 +45,9 @@ Here you’ll find my solutions to problems from various contests. This is my jo
 
 | Platform | Problems Solved |
 |----------|-----------------|
-| LeetCode | 25              |
+| LeetCode | 26              |
 | Codeforces | 26              |
+
 
 *(Last updated 10/2025)*
 
