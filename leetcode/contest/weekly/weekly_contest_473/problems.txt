@@ -1,0 +1,3 @@
+3726. Remove Zeros in Decimal Representation
+3727. Maximum Alternating Sum of Squares
+3728. Stable Subarrays With Equal Boundary and Interior Sum
