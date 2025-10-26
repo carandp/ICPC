@@ -1,0 +1,4 @@
+3722. Lexicographically Smallest String After Reverse
+3723. Maximize Sum of Squares of Digits
+3724. Minimum Operations to Transform Array
+3725. Count Ways to Choose Coprime Integers from Rows
