@@ -1,0 +1,2 @@
+3731. Find Missing Elements
+3732. Maximum Product of Three Elements After One Replacement
