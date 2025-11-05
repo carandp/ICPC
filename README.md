@@ -47,11 +47,11 @@ Here you’ll find my solutions to problems from various contests. This is my jo
 
 | Platform | Problems Solved |
 |----------|-----------------|
-| LeetCode | 42              |
+| LeetCode | 43              |
 | Codeforces | 26              |
 
 
-*(Last updated 10/2025)*
+*(Last updated 11/2025)*
 
 ---
 
