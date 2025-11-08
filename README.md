@@ -1,11 +1,10 @@
-# 🏆 Competitive Programming Repository
+# 🏆 Competitive Programming Repo
 
-Welcome to my **Competitive Programming** repository!  
-Here you’ll find my solutions to problems from various contests. This is my journey in improving algorithmic thinking and problem-solving skills.
+Welcome to my **ICPC** repo!
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repo Structure
 
 ```
 .
@@ -34,7 +33,7 @@ Here you’ll find my solutions to problems from various contests. This is my jo
 - **uni2804/** → Solutions to uni2804 subject problems.
 
 ---
-
+s
 ## 🛠️ Tech Stack
 
 - **Languages**: Mainly C++
