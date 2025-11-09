@@ -33,7 +33,7 @@ Welcome to my **ICPC** repo!
 - **uni2804/** → Solutions to uni2804 subject problems.
 
 ---
-s
+
 ## 🛠️ Tech Stack
 
 - **Languages**: Mainly C++
