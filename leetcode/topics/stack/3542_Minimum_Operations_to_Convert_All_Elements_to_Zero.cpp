@@ -1,4 +1,4 @@
-//  K. Kings Conquest
+//  3542. Minimum Operations to Convert All Elements to Zero
 
 /**
     @author: carandp
@@ -44,72 +44,33 @@ string to_upper(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a
 string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A'; return a;}
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
-void solve() {
-    int n,k;
-    cin >> n >> k;
-    vector<pair<int,int>> kings;
-    int maxRow = 0;
-    int minRow = 0;
-    int maxCol = 0;
-    int minCol = 0;
-    multiset<int> xpos;
-    multiset<int> ypos;
-    f(i,0,n) {
-        int r,c;
-        cin >> r >> c;
-        maxRow = max(maxRow,r);
-        minRow = min(minRow,r);
-        maxCol = max(maxCol,c);
-        minCol = min(minCol, c);
-        kings.push_back({c,r});
-        xpos.insert(c);
-        ypos.insert(r);
-    }
+class Solution {
+public:
+    int minOperations(vector<int>& nums) {
 
-    ll maxArea = (ll)(maxRow-minRow+1)*(ll)(maxCol-minCol+1);
-    f(i,0,kings.size()) {
-        pair<int,int> king = kings[i];
-        xpos.erase(xpos.find(king.first)); // Erase curr king
-        ypos.erase(ypos.find(king.second));
-        f(x,-1,2) {
-            f(y,-1,2) {
-                if (x == 0 || y == 0) continue;
-                pair<int,int> movedKing = {king.first+(x*k),king.second+(y*k)};
-                xpos.insert(movedKing.first); // Insert moved curr king
-                ypos.insert(movedKing.second);
-                int currMaxCol = *xpos.rbegin();
-                int currMinCol = *xpos.begin();
-                int currMaxRow = *ypos.rbegin();
-                int currMinRow = *ypos.begin();
-                ll currArea = (ll)(currMaxCol-currMinCol+1)*(ll)(currMaxRow-currMinRow+1);
-                maxArea = max(maxArea,currArea);
-                xpos.erase(xpos.find(movedKing.first)); // Erase moved curr king
-                ypos.erase(ypos.find(movedKing.second));
+        stack<int> hill;
+        int res = 0;
+
+        for (int i=0;i<nums.size();i++) {
+            int num = nums[i];
+            while (!hill.empty() && hill.top() > num) {
+                hill.pop(); // Pop found hill
+            }
+            if (num == 0) continue; // Continue after clearing stack if 0
+            if (hill.empty() || hill.top() < num) {
+                res++; // Add 1 operation since there's a new high found
+                hill.push(num); // Push the new high
             }
         }
-        xpos.insert(king.first); // Insert curr king
-        ypos.insert(king.second);
+        return res;
     }
-
-    // TODO: Edge case
-    int sumX = k/2;
-    int sumY = k-sumX;
-    ll currArea = (ll)(maxRow-minRow+1+sumY)*(ll)(maxCol-minCol+1+sumX);
-    maxArea = max(maxArea,currArea);
-
-    if (n==1) maxArea = 1LL;
-
-    cout << maxArea << nl;
-}
+};
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    int tc = 1;
-    // cin >> tc;
-    for (int t = 1; t <= tc; t++) {
-        // cout << "Case #" << t << ": ";
-        solve();
-    }
+    Solution sol;
+    // vi x = {1, 2, 3, 1};
+    // cout << sol.method(x) << nl;
     
 }
