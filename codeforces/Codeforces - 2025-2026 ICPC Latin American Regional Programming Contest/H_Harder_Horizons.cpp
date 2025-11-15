@@ -1,4 +1,4 @@
-//  K. Kings Conquest
+//  H. Harder Horizons
 
 /**
     @author: carandp
@@ -45,61 +45,22 @@ string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 
 void solve() {
-    int n,k;
-    cin >> n >> k;
-    vector<pair<int,int>> kings;
-    int maxRow = 0;
-    int minRow = 0;
-    int maxCol = 0;
-    int minCol = 0;
-    multiset<int> xpos;
-    multiset<int> ypos;
+    int n;
+    cin >> n;
+    vector<int> t(n+1,0);
     f(i,0,n) {
-        int r,c;
-        cin >> r >> c;
-        maxRow = max(maxRow,r);
-        minRow = min(minRow,r);
-        maxCol = max(maxCol,c);
-        minCol = min(minCol, c);
-        kings.push_back({c,r});
-        xpos.insert(c);
-        ypos.insert(r);
+        cin >> t[i];
     }
-
-    ll maxArea = (ll)(maxRow-minRow+1)*(ll)(maxCol-minCol+1);
-    f(i,0,kings.size()) {
-        pair<int,int> king = kings[i];
-        xpos.erase(xpos.find(king.first)); // Erase curr king
-        ypos.erase(ypos.find(king.second));
-        f(x,-1,2) {
-            f(y,-1,2) {
-                if (x == 0 || y == 0) continue;
-                pair<int,int> movedKing = {king.first+(x*k),king.second+(y*k)};
-                xpos.insert(movedKing.first); // Insert moved curr king
-                ypos.insert(movedKing.second);
-                int currMaxCol = *xpos.rbegin();
-                int currMinCol = *xpos.begin();
-                int currMaxRow = *ypos.rbegin();
-                int currMinRow = *ypos.begin();
-                ll currArea = (ll)(currMaxCol-currMinCol+1)*(ll)(currMaxRow-currMinRow+1);
-                maxArea = max(maxArea,currArea);
-                xpos.erase(xpos.find(movedKing.first)); // Erase moved curr king
-                ypos.erase(ypos.find(movedKing.second));
-            }
-        }
-        xpos.insert(king.first); // Insert curr king
-        ypos.insert(king.second);
+    t[n] = INT_MAX;
+    int prev = t[0];
+    int days = 0;
+    f(i,0,n+1) {
+        int ti = t[i];
+        if (ti <= prev) continue;
+        days++;
+        prev = t[i];
     }
-
-    // TODO: Edge case
-    int sumX = k/2;
-    int sumY = k-sumX;
-    ll currArea = (ll)(maxRow-minRow+1+sumY)*(ll)(maxCol-minCol+1+sumX);
-    maxArea = max(maxArea,currArea);
-
-    if (n==1) maxArea = 1LL;
-
-    cout << maxArea << nl;
+    cout << days << nl;
 }
 
 int main() {
