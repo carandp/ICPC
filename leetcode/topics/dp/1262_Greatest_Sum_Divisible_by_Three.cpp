@@ -47,20 +47,21 @@ mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 class Solution {
 public:
     int maxSumDivThree(vector<int>& nums) {
-        int n = nums.size();
-        int dp[n + 1][3];
-        dp[0][0] = 1;
-        dp[0][1] = dp[0][2] = 0;
-        for (int i = 1; i <= n; i++) {
-            for (int m = 0; m < 3; m++) {
-                int skip = dp[i - 1][m];
-                int pick = 0;
-                int x = dp[i - 1][(m + nums[i - 1]) % 3];
-                if (x) pick = nums[i - 1] + x;
-                dp[i][m] = max(pick, skip);
+        int dp[3]= {0, -1, -1};
+        for (int num : nums) {
+            int ndp[3] = {dp[0],dp[1],dp[2]};
+            for (int j = 0; j < 3; j++) {
+                if (dp[j] > -1) {
+                    int curr = dp[j] + num;
+                    int idk = (j + num) % 3;
+                    ndp[idk] = max(ndp[idk], curr);
+                }
             }
+            dp[0] = ndp[0];
+            dp[1] = ndp[1];
+            dp[2] = ndp[2];
         }
-        return dp[n][0] - 1;
+        return dp[0];
     }
 };
 
