@@ -1,0 +1,3 @@
+3754. Concatenate Non-Zero Digits and Multiply by Sum I
+3755. Find Maximum Balanced XOR Subarray Length
+3756. Concatenate Non-Zero Digits and Multiply by Sum II
