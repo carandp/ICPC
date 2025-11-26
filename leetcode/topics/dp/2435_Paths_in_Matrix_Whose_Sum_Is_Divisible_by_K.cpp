@@ -62,7 +62,7 @@ public:
                 for (int r=0;r<k;r++) {
                     if (!i) dp[i][j][(r+grid[i][j])%k] = dp[i][j-1][r]; // Previous col number of paths
                     else if (!j) dp[i][j][(r+grid[i][j])%k] = dp[i-1][j][r]; // Previous row number of paths
-                    else dp[i][j][(r+grid[i][j])%k] = (dp[i][j-1][r]%mod + dp[i-1][j][r])%mod; // Previous col + row number of paths % mod
+                    else dp[i][j][(r+grid[i][j])%k] = (dp[i][j-1][r] + dp[i-1][j][r])%mod; // Previous col + row number of paths % mod
                 }
             }
         }
