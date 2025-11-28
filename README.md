@@ -45,9 +45,9 @@ Welcome to my **ICPC** repo!
 
 ## 📊 Progress
 
-| Platform | Problems Solved |
-|----------|-----------------|
-| LeetCode | 70              |
+| Platform   | Problems Solved |
+|------------|-----------------|
+| LeetCode   | 71              |
 | Codeforces | 30              |
 
 
@@ -55,4 +55,4 @@ Welcome to my **ICPC** repo!
 
 ---
 
-> **"DET-BEDSTE-ER-IKKE-FOR-GODT"**
+>>> **"DET-BEDSTE-ER-IKKE-FOR-GODT"**
