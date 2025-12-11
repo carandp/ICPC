@@ -48,10 +48,10 @@ Welcome to my **ICPC** repo!
 | Platform   | Problems Solved |
 |------------|-----------------|
 | LeetCode   | 84              |
-| Codeforces | 30              |
+| Codeforces | 32              |
 
 
-*(Last updated 11/2025)*
+*(Last updated 12/2025)*
 
 ---
 
