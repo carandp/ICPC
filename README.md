@@ -47,7 +47,7 @@ Welcome to my **ICPC** repo!
 
 | Platform   | Problems Solved |
 |------------|-----------------|
-| LeetCode   | 83              |
+| LeetCode   | 84              |
 | Codeforces | 30              |
 
 
