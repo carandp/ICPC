@@ -1,3 +1,4 @@
 1611. Minimum One Bit Operations to Make Integers Zero
 3625. Count Number of Trapezoids II
 3562. Maximum Profit from Trading Stocks with Discounts
+2483. Minimum Penalty for a Shop
