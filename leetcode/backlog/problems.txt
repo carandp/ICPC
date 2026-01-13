@@ -3,3 +3,4 @@
 3562. Maximum Profit from Trading Stocks with Discounts
 2483. Minimum Penalty for a Shop
 2402. Meeting Rooms III
+3453. Separate Squares I
