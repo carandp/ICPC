@@ -51,7 +51,7 @@ Welcome to my **ICPC** repo!
 | Codeforces | 33              |
 
 
-*(Last updated 12/2025)*
+*(Last updated 1/2026)*
 
 ---
 
