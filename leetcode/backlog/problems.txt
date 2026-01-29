@@ -6,3 +6,4 @@
 3453. Separate Squares I
 3454. Separate Squares II
 3510. Minimum Pair Removal to Sort Array II
+3651. Minimum Cost Path with Teleportations
