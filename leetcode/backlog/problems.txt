@@ -7,3 +7,5 @@
 3454. Separate Squares II
 3510. Minimum Pair Removal to Sort Array II
 3651. Minimum Cost Path with Teleportations
+2976. Minimum Cost to Convert String I
+2977. Minimum Cost to Convert String II
