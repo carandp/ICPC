@@ -10,3 +10,4 @@
 2976. Minimum Cost to Convert String I
 2977. Minimum Cost to Convert String II
 3013. Divide an Array Into Subarrays With Minimum Cost II
+3640. Trionic Array II
